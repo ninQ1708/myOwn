@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFriends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <style>
+        body {
+            background: url('bg.jpeg') no-repeat center center/cover;
+        }
+
+        h1 {
+            height: 74px;
+            width: 1296px;
+            padding: 20px 20px;
+            margin: 0px 0px 0px 0px;
+            border: 2px solid palevioletred;
+            border-radius: 25px;
+            background-color: aliceblue;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size: 55px;
+            transition: height 4s ease-out;
+        }
+
+
+        #list {
+            display: flex;
+            margin: 140px 1px 1px 1px;
+            height: 230px;
+            justify-content: space-around;
+            align-items: center;
+            background: url('listfrnds.jpg') no-repeat center center/cover;
+        }
+
+        .friends {
+            box-sizing: border-box;
+            width: 266px;
+            height: fit-content;
+            text-align: center;
+            background: white;
+            padding: 32px 69px;
+            border: 2px solid rgb(51, 3, 105);
+            border-radius: 25px;
+            font-family: 'Pacifico', cursive;
+            font-size: 44px;
+            transition: height 1s ease-out;
+            transition: width 1s ease-out;
+        }
+
+        h1:hover {
+            color: transparent;
+            width: 1296px;
+            height: 540px;
+            background: url('frnds.jpeg') no-repeat center -125px/cover;
+        }
+
+        .friends:hover {
+            width: 500px;
+            height: 300px;
+            color: transparent;
+        }
+
+        #Komal:hover {
+            background: url('komal.jpeg') no-repeat center -110px/cover;
+
+        }
+
+        #Sahil:hover {
+            background: url('sahil.jpeg') no-repeat center center/cover;
+        }
+
+        #Ojaswi:hover {
+            background: url('Ojaswi.jpeg') no-repeat center -130px/cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Friends</h1>
+    <div id="list">
+        <div class="friends" id="Komal">Komal</div>
+        <div class="friends" id="Sahil">Sahil</div>
+        <div class="friends" id="Ojaswi">Ojaswi</div>
+    </div>
+</body>
+
+</html>
